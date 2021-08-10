@@ -2,3 +2,5 @@
 
 5. useParams, useRouteMatch (url,path)
 12. useLocation, queryStrings
+15. 404 route + switch
+18. pass props via link
