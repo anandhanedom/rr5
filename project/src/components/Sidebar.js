@@ -4,7 +4,7 @@ import slug from "slug";
 
 const CustomLink = ({ to, children }) => {
   const match = useRouteMatch({
-    path: to,
+    path: to.pathname,
   });
 
   return (
@@ -29,7 +29,7 @@ const Sidebar = ({ title, list }) => {
               search: search,
             }}
           >
-            {item.toUppercase()}
+            {item.toUpperCase()}
           </CustomLink>
         ))}
       </ul>
